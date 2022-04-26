@@ -11,12 +11,14 @@ public class Main {
 
 
         while (shouldContinue) {
+            System.out.println("============");
             System.out.println("Wybierz opcję");
             System.out.println("1. Wyświetl gości");
             System.out.println("2. Dodaj gościa");
             System.out.println("3. Wyświetl potrawy");
             System.out.println("4. Znajdź po numerze telefonu");
             System.out.println("5. Wyjście");
+            System.out.println("============");
 
             int userChoice = scanner.nextInt(); // utworz zmienna PRZED pętlą
 
